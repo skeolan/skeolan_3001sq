@@ -12,9 +12,30 @@
 	const string lightDashRight = "/dev/light3";
 
 //Displays
+	const uint DISPLAY_COUNT    = 8;
 	const string display        = "/dev/iq0";
+	const vector<var> displayNames = {
+		  "0 - Terminal"
+		, "1 - Arm"
+		, "2 - DashBoard Left"
+		, "3 - DashBoard Center"
+		, "4 - DashBoard Right"
+		, "5 - Container"
+		, "6 - Log"
+		, "7 - Overhead"
+	};
 	//vector<var> displaysOn = { Control_Device_Power, Device_PowerMode_Off };    // Turn off all displays
 	//vector<var> displayOn5 = { Control_Device_Power, Device_PowerMode_On, 5 };  // Turn on display 5
+	// MPS Display IDs (passed to GPU as target):
+	//
+	//    0 Terminal           54x23
+	//    1 Arm                58x20
+	//    2 DashBoard Left     23x24
+	//    3 DashBoard Center   23x24
+	//    4 DashBoard Right    23x24
+	//    5 Container          36x10
+	//    6 Log                12x14     
+	//    7 Overhead          101x12
 
 //Life Support
 	const string LS_air         = "/dev/air0";   //air revitalisation system

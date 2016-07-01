@@ -18,6 +18,6 @@
 int main(uint argc, vector<var> &in argv)
 {
 	fiatLux();
-
+	log("HELLO SPACESHIP");
 	return 0;
 }
