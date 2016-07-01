@@ -1,3 +1,11 @@
+// -----------------------------------------------------------------------------
+// copied from https://github.com/3001SQ/brouillon/blob/master/fast_boot.as
+// nandOS
+// Created by Stjepan Stamenkovic.
+// Extended with fdVideo parameterization by skeolan.
+// -----------------------------------------------------------------------------
+
+
 class TextResolution
 {
 	int columns;
